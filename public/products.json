@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 99.99,
+      "image": "/images/headphones2.avif",
+      "description": "High-quality wireless headphones with noise cancellation."
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 199.99,
+      "image": "/images/smartwatch.avif",
+      "description": "Stay connected on the go with this stylish smart watch."
+    },
+    {
+      "id": 3,
+      "name": "Coffee Maker",
+      "category": "Appliances",
+      "price": 49.99,
+      "image": "/images/coffeemaker.avif",
+      "description": "Brew the perfect cup of coffee with this easy-to-use coffee maker."
+    },
+    {
+      "id": 4,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 59.99,
+      "image": "/images/speaker.avif",
+      "description": "Portable Bluetooth speaker with deep bass and 10-hour battery life."
+    },
+    {
+      "id": 5,
+      "name": "Laptop Bag",
+      "category": "Accessories",
+      "price": 39.99,
+      "image": "/images/laptopbag.avif",
+      "description": "Durable and stylish laptop bag with multiple compartments."
+    },
+    {
+      "id": 6,
+      "name": "Air Fryer",
+      "category": "Appliances",
+      "price": 129.99,
+      "image": "/images/airfryer.avif",
+      "description": "Cook crispy and healthy meals with this powerful air fryer."
+    },
+    {
+      "id": 7,
+      "name": "Electric Toothbrush",
+      "category": "Health & Beauty",
+      "price": 39.99,
+      "image": "/images/toothbrush.avif",
+      "description": "Effective and gentle electric toothbrush for better oral care."
+    },
+    {
+      "id": 8,
+      "name": "Gaming Mouse",
+      "category": "Electronics",
+      "price": 69.99,
+      "image": "/images/gamingmouse.avif",
+      "description": "Precision gaming mouse with customizable RGB lighting."
+    },
+    {
+      "id": 9,
+      "name": "Smart Light Bulb",
+      "category": "Home Automation",
+      "price": 19.99,
+      "image": "/images/smartbulb.avif",
+      "description": "Control your lighting remotely with this smart LED light bulb."
+    },
+    {
+      "id": 10,
+      "name": "Portable Power Bank",
+      "category": "Electronics",
+      "price": 29.99,
+      "image": "/images/powerbank.avif",
+      "description": "Keep your devices charged on the go with this portable power bank."
+    }
+  ]
+  
