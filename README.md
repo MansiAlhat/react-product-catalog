@@ -22,28 +22,25 @@ Follow these steps to set up and run the application locally:
    git clone https://github.com/MansiAlhat/react-product-catalog.git
 Navigate to the project directory:
 
-bash
-Copy code
+
 cd react-product-catalog
 Install the required dependencies:
 
-bash
-Copy code
+
 npm install
 Start the application:
 
-bash
-Copy code
+
 npm start
 The application will run on http://localhost:3000 by default.
 
-Tools and Libraries Used
+## Tools and Libraries Used
 React: For building a dynamic and responsive UI.
 React Router: For managing page navigation.
 Axios: For handling API requests.
 Bootstrap: For styling the application with pre-designed components.
 React Icons: For adding intuitive icons to enhance the user interface.
-Challenges Faced
+## Challenges Faced
 Challenge: State management for filtering and searching products.
 
 Solution: Utilized React's useState and useEffect hooks to dynamically update and manage the filtered product list.
