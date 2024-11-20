@@ -1,49 +1,62 @@
-Product Catalog Application
-This is a React-based application that allows users to search, filter, and view details of products. The app ensures responsiveness and provides an optimal user experience.
+# React Product Catalog
 
-📥 Installation and Setup
-Follow these steps to run the application locally on your machine:
+A simple React application to showcase and manage a product catalog. The application allows users to view, search, and manage products efficiently.
 
-Clone the Repository:
+---
+
+## Table of Contents
+1. [Installation](#installation)
+2. [Tools and Libraries Used](#tools-and-libraries-used)
+3. [Challenges Faced](#challenges-faced)
+4. [Optional Enhancements](#optional-enhancements)
+5. [Screenshots](#screenshots)
+
+---
+
+## Installation
+
+Follow these steps to set up and run the application locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MansiAlhat/react-product-catalog.git
+Navigate to the project directory:
 
 bash
 Copy code
-git clone <repository-url>
-Navigate to the Project Directory:
-
-bash
-Copy code
-cd product-catalog
-Install Dependencies:
-Make sure you have Node.js installed. Run the following command:
+cd react-product-catalog
+Install the required dependencies:
 
 bash
 Copy code
 npm install
-Run the Application:
-Start the development server using:
+Start the application:
 
 bash
 Copy code
 npm start
-The application will open at http://localhost:3000 in your browser.
+The application will run on http://localhost:3000 by default.
 
-📚 Libraries and Tools Used
-React: For building the user interface.
-React Router: For handling navigation between pages.
-Axios (optional): For API calls (if any).
-Bootstrap: For styling and responsiveness.
-💡 Challenges Faced and Solutions
-Issue with Layout Responsiveness:
-Problem: When filtering or sorting products, the page size dynamically changed based on the number of cards.
-Solution: We ensured consistent card grid alignment by applying proper CSS flexbox/grid rules. This was managed with appropriate min-height and grid-template-columns configurations to maintain uniformity.
+Tools and Libraries Used
+React: For building a dynamic and responsive UI.
+React Router: For managing page navigation.
+Axios: For handling API requests.
+Bootstrap: For styling the application with pre-designed components.
+React Icons: For adding intuitive icons to enhance the user interface.
+Challenges Faced
+Challenge: State management for filtering and searching products.
 
-Dynamic Page Size on Detail View:
-Problem: Clicking on product details sometimes caused alignment issues.
-Solution: Fixed the container layout to ensure the detail view is positioned correctly within a consistent parent structure.
+Solution: Utilized React's useState and useEffect hooks to dynamically update and manage the filtered product list.
+Challenge: Styling consistency across different screen sizes.
 
-✨ Optional Enhancements
-Added Sort by Price functionality for an improved user experience.
-Ensured full responsiveness for all screen sizes, including mobile devices.
-Designed the UI to maintain a modern and clean look using flexbox and custom CSS.
-🖼️ Screenshots
+Solution: Used Bootstrap's responsive grid system to ensure the application adapts seamlessly to various devices.
+Challenge: Handling API errors and providing feedback to users.
+
+Solution: Added error handling with Axios interceptors and displayed user-friendly error messages.
+Optional Enhancements
+Added pagination for a large number of products for better performance.
+Integrated a "Favorite Products" feature to allow users to mark and view their preferred items.
+Used tooltips for better user guidance on interactive elements.
+Screenshots
+added screenshots in screenshots directory
+
