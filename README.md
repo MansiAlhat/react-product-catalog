@@ -53,10 +53,12 @@ Solution: Used Bootstrap's responsive grid system to ensure the application adap
 Challenge: Handling API errors and providing feedback to users.
 
 Solution: Added error handling with Axios interceptors and displayed user-friendly error messages.
-Optional Enhancements
+
+## Optional Enhancements
 Added pagination for a large number of products for better performance.
 Integrated a "Favorite Products" feature to allow users to mark and view their preferred items.
 Used tooltips for better user guidance on interactive elements.
-Screenshots
+
+## Screenshots
 added screenshots in screenshots directory
 
